@@ -1,0 +1,28 @@
+//color
+$green: #76c7c0;
+$bodyBackground: #f3f3f3;
+$gray: #f3f3f3;
+
+//vars
+$conteiner1170: 1170px;
+
+//setting
+@import "mix/colectMix";
+@import "../../node_modules/susy/sass/_susy";
+$susy: (
+  columns: 12,
+  gutters: 1/2.5,
+  gutter-position: after,
+  debug: (
+    image: show,
+    color: rgba(#ffd51b, .25),
+    output: background,
+    toggle: top right,
+  ),
+);
+@import "setting/setting";
+
+//block
+@import "section/header";
+@import "section/slider";
+@import "section/body";

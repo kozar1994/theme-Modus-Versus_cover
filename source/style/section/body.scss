@@ -1,0 +1,28 @@
+.body-container{
+  background-color: $gray;
+}
+.info-block{
+  margin: 10px 0;
+  @include span(12);
+  background-color: #ececec;
+  padding: 10px;
+  border-radius: 5px;
+}
+.read-more{
+  list-style: none;
+  @extend %clearFix;
+
+}
+.read-more_item{
+  @include span(3);
+  min-height: 340px;
+
+
+  .item-container{
+    background: #ffffff;
+    min-height: 315px;
+   /* border-radius: 5px;
+    box-shadow: 0 0 10px rgba(#000,.25);
+    box-sizing: border-box;*/
+  }
+}

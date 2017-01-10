@@ -1,12 +1,22 @@
 {
-  "name": "loftschool-builder",
+  "name": "theme-Modus-Versus_cover",
   "version": "1.0.0",
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components"
+    "bower_components",
+    "./bower_components/",
+    "test",
+    "tests"
   ],
   "dependencies": {
     "jquery": "2.1.3"
-  }
+  },
+  "homepage": "https://github.com/kozar1994/theme-Modus-Versus_cover",
+  "authors": [
+    "Vova Kozar <vovakozar@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT"
 }

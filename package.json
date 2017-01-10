@@ -1,5 +1,5 @@
 {
-  "name": "loftschool-builder",
+  "name": "theme-Modus-Versus_cover",
   "version": "1.0.0",
   "author": "a.kalin",
   "license": "ISC",
@@ -26,8 +26,18 @@
     "rimraf": "2.5.2"
   },
   "dependencies": {
-    "normalize.css": "^4.1.1"
+    "bower": "^1.8.0",
+    "normalize.css": "^4.1.1",
+    "susy": "^2.2.12"
   },
   "description": "Getting started:",
-  "main": "gulpfile.js"
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kozar1994/theme-Modus-Versus_cover.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kozar1994/theme-Modus-Versus_cover/issues"
+  },
+  "homepage": "https://github.com/kozar1994/theme-Modus-Versus_cover#readme"
 }
